@@ -8,7 +8,7 @@ CREATE TABLE raw_companies (
   country TEXT,
   address_line_1 TEXT,
   address_line_2 TEXT,
-  locatily TEXT,
+  locality TEXT,
   region TEXT,
   postal_code TEXT,
   loaded_at TIMESTAMPTZ DEFAULT now()
