@@ -28,25 +28,11 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 16,
+      "execution_count": null,
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "2UGlZroXTa4F",
-        "outputId": "a8e28e73-7d4e-42bb-f86f-828125592f20"
+        "id": "2UGlZroXTa4F"
       },
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "key loaded: True\n",
-            "200 8914\n",
-            "{'etag': '344bb2c75806d670cc3293d168240cf5c0ef70f2', 'top_hit': {'company_name': 'MUBEA U-MOBILITY UK', 'company_number': 'FC042658', 'company_status': 'active', 'company_type': 'oversea-company', 'kind': 'search-results#company', 'links': {'company_profile': '/company/FC042658'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '1 Mubea-Platz', 'locality': 'Attendorn', 'region': '57439', 'country': 'Germany'}}, 'items': [{'company_name': 'MUBEA U-MOBILITY UK', 'company_number': 'FC042658', 'company_status': 'active', 'company_type': 'oversea-company', 'kind': 'search-results#company', 'links': {'company_profile': '/company/FC042658'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '1 Mubea-Platz', 'locality': 'Attendorn', 'region': '57439', 'country': 'Germany'}}, {'company_name': 'MUBEA U-MOBILITY UK', 'company_number': 'BR027777', 'company_status': 'open', 'company_type': 'uk-establishment', 'kind': 'search-results#company', 'links': {'company_profile': '/company/BR027777'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': 'Unit 44 Space Business Centre Plato Close', 'locality': 'Royal Leamington Spa', 'postal_code': 'CV34 6YA', 'region': 'Tachbrook Park Drive'}}, {'company_name': 'JDHB LIMITED', 'company_number': '16506277', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16506277'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '3 Ffordd Celyn', 'locality': 'Denbigh', 'postal_code': 'LL16 5UU', 'country': 'Wales'}, 'sic_codes': ['41100']}, {'company_name': 'THE BRIDGEWAY HOLDINGS LIMITED', 'company_number': '16503492', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16503492'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '25 Barnes Wallis Road', 'locality': 'Fareham', 'postal_code': 'PO15 5TT', 'country': 'England'}, 'sic_codes': ['64209']}, {'company_name': 'SUNRISETOSUNSET-BUDE LIMITED', 'company_number': '16504684', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16504684'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '2 Ripon House Manor Fields', 'address_line_2': 'Putney', 'locality': 'London', 'postal_code': 'SW15 3NE', 'country': 'United Kingdom'}, 'sic_codes': ['96040', '96090']}, {'company_name': 'R.S METAL & IRON WORK LTD', 'company_number': '16504747', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16504747'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '39 Balfour Road', 'locality': 'Carlisle', 'postal_code': 'CA2 7DU', 'region': 'Cumbria', 'country': 'England'}, 'sic_codes': ['25110', '25990', '46150']}, {'company_name': 'THE LUFFENHAM PUBCO LTD', 'company_number': '16504144', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16504144'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '11 Church Lane', 'locality': 'Morcott', 'postal_code': 'LE15 9DH', 'country': 'United Kingdom'}, 'sic_codes': ['55100', '56101', '56302']}, {'company_name': 'WOODFORD GARDENING SERVICES LTD', 'company_number': '16503815', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16503815'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '48 Osborne Road', 'locality': 'Ryde', 'postal_code': 'PO33 2TH', 'region': 'Isle Of Wight', 'country': 'England'}, 'sic_codes': ['81300']}, {'company_name': 'PBOSS BUILDERS LTD', 'company_number': '16504062', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16504062'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '40 Cherry Tree Avenue', 'locality': 'Walsall', 'postal_code': 'WS5 4LH', 'country': 'United Kingdom'}, 'sic_codes': ['41202', '43290', '43330', '43341']}, {'company_name': 'DJH (HAMPSHIRE) LTD', 'company_number': '16504088', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16504088'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': 'Marsh Cottage', 'address_line_2': 'Cheriton', 'locality': 'Alresford', 'postal_code': 'SO24 0QG', 'region': 'Hamps', 'country': 'England'}, 'sic_codes': ['52219']}, {'company_name': 'M73 HOMES LTD', 'company_number': '16504881', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16504881'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '7 De Mel Close', 'address_line_2': 'Epsom', 'locality': 'Surrey', 'postal_code': 'KT19 7EL', 'country': 'United Kingdom'}, 'sic_codes': ['68209']}, {'company_name': 'WEST HERTFORDSHIRE NEIGHBOURHOOD INTEGRATOR CIC', 'company_number': '16506367', 'company_status': 'active', 'company_type': 'private-limited-guarant-nsc', 'company_subtype': 'community-interest-company', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16506367'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': 'C/O Social Finance Limited 3rd Floor, Colechurch House', 'address_line_2': 'London Bridge Walk', 'locality': 'London', 'postal_code': 'SE1 2SX', 'country': 'England'}, 'sic_codes': ['96090']}, {'company_name': 'MEDIQSOL TECHNOLOGIES PVT LTD', 'company_number': '16503685', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16503685'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': 'Office Gold, Building 7, Floor 5, 566 Chiswick High Road', 'address_line_2': 'Chiswick Business Park', 'locality': 'London', 'postal_code': 'W4 5YG', 'country': 'United Kingdom'}, 'sic_codes': ['32500', '72190', '86101', '86230']}, {'company_name': 'LAMBERT COMPANY INVESTMENTS LTD', 'company_number': '16505330', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16505330'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '21 Cobham Road', 'address_line_2': 'Ferndown Industrial Estate', 'locality': 'Wimborne', 'postal_code': 'BH21 7PE', 'country': 'England'}, 'sic_codes': ['64209']}, {'company_name': 'VIKING SELF STORAGE MKT H LIMITED', 'company_number': '16505425', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16505425'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': 'Richmond House', 'address_line_2': 'Walkern Road', 'locality': 'Stevenage', 'postal_code': 'SG1 3QP', 'country': 'United Kingdom'}, 'sic_codes': ['96090']}, {'company_name': 'ROCKWALL SYSTEMS LTD', 'company_number': '16504441', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16504441'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '15 The Springs', 'locality': 'Witney', 'postal_code': 'OX28 4AJ', 'region': 'Oxon', 'country': 'England'}, 'sic_codes': ['43310']}, {'company_name': 'MOSSPARK MANAGEMENT LTD', 'company_number': 'SC851573', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/SC851573'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': 'Summit House', 'address_line_2': '4-5 Mitchell Street', 'locality': 'Edinburgh', 'postal_code': 'EH6 7BD', 'country': 'Scotland'}, 'sic_codes': ['68209']}, {'company_name': 'MUBARAKGROUPS LTD', 'company_number': 'SC851651', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/SC851651'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '250 C 250 C Paisley Road Renfrew', 'locality': 'Renfrew', 'postal_code': 'PA4 8AA', 'country': 'Scotland'}, 'sic_codes': ['47910']}, {'company_name': 'CALLANS CUSTOMS LTD', 'company_number': '16503890', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16503890'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': '93 Westbourne Ave', 'locality': 'Hull', 'postal_code': 'HU5 3HT', 'country': 'United Kingdom'}, 'sic_codes': ['45200', '49410', '70229', '82990']}, {'company_name': 'THE WEDDING NANNY LIMITED', 'company_number': '16505048', 'company_status': 'active', 'company_type': 'ltd', 'kind': 'search-results#company', 'links': {'company_profile': '/company/16505048'}, 'date_of_creation': '2025-06-09', 'registered_office_address': {'address_line_1': 'First Floor Office Willow House', 'address_line_2': 'Stubley Hollow', 'locality': 'Dronfield', 'postal_code': 'S18 1PA', 'country': 'England'}, 'sic_codes': ['88910']}], 'kind': 'search#advanced-search', 'hits': 3666}\n"
-          ]
-        }
-      ],
+      "outputs": [],
       "source": [
         "import os\n",
         "import requests\n",
@@ -83,24 +69,10 @@
         ""
       ],
       "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "D8Hj3eVglf5F",
-        "outputId": "4dbdc0f1-632d-4d2a-acb8-ac5e99f19863"
+        "id": "D8Hj3eVglf5F"
       },
-      "execution_count": 15,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Notebook folder: /content\n",
-            "Files here: ['.config', 'API.env', 'sample_data']\n",
-            "'API.env' -> 'api_key' (value hidden)\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     }
   ]
 }
