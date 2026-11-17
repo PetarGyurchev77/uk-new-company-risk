@@ -1,8 +1,5 @@
-CREATE TABLE raw_pull_log (
-  incorporation_date DATE,
-  hits_reported INTEGER,
-  rows_received INTEGER,
-  date_pull_ran TIMESTAMPTZ
-);
-
-
+  CREATE TABLE raw_company_sic (
+    company_number TEXT,
+    sic_code TEXT, 
+    PRIMARY KEY (company_number, sic_code)
+  )
